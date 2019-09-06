@@ -1,7 +1,6 @@
 .row {
     //width: 1140px; to rem  -->  10px = 1rem --> 1140/10 = 114rem 
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto;
 
     &:not(:last-child){
@@ -11,9 +10,7 @@
     @include clearfix;
 
     [class^="col-"] {
-        background-color: orangered;
         float: left;
-        color: white;
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
         }        
