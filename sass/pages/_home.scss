@@ -9,8 +9,9 @@
     //top and bottom are 20rem and left and right 0
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.5)
-        rgba($color-primary-dark, 0.8))
-    url(../img/nat-4.jpg);
+        rgba($color-primary-light, 0.5),
+        rgba($color-primary-dark, 0.8)),
+        url(../img/nat-4.jpg);
     background-size: cover;
 }
+
