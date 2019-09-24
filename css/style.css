@@ -1,3 +1,21 @@
+/*
+ 0 - 600 px  ---> Phone
+600 - 900px  ---> Tablet portrait
+900 - 1200px ---> Tablet landscape
+1200 - 1800  ---> is where out normal styles apply (desktop)
+1800px +     ---> Big Screens (desktop)
+
+$breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop
+
+
+1 em = 16px
+
+600/16 = 37.5em
+*/
 *,
 ::after,
 ::before {
@@ -7,6 +25,9 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }

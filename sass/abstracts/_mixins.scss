@@ -13,3 +13,48 @@
     transform: translate(-50%, - 50%);
     border-radius: 3px;
 }
+
+
+
+//Media query manager
+
+/*
+ 0 - 600 px  ---> Phone
+600 - 900px  ---> Tablet portrait
+900 - 1200px ---> Tablet landscape
+1200 - 1800  ---> is where out normal styles apply (desktop)
+1800px +     ---> Big Screens (desktop)
+
+$breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop
+
+
+1 em = 16px
+
+600/16 = 37.5em
+*/
+
+@mixin respond-phone {
+    @media (max-width: 600px) {@content}
+}
+
+
+
+
+@mixin respond($breakpoint) {
+    @if $breakdpoint == phone {
+        @media (max-width: 37.5em) {@content}
+    }
+    @if $breakdpoint == tab-port {
+        @media (max-width: 56.25em) {@content}
+    }
+    @if $breakdpoint == tab-land {
+        @media (max-width: 75em) {@content}
+    }
+    @if $breakdpoint == big-desktop {
+        @media (min-width: 112.5em) {@content}
+    }
+}
