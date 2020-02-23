@@ -38,5 +38,15 @@ After the above part you will see 3 different tours available, if you hover over
 
 ![](img/tours.png)
 
-Coming right after the tours section you will see the 'opinions' section the background of this part is a video and if you hover over one of the opinions the image will be changed for the name of the user:
+Coming right after the tours section you will see the 'opinions' section, the background of this part is a video and if you hover over one of the opinions the image will be changed for the name of the user:
 ![](img/opinion.png)
+
+One of the final sections is the 'booking' section:
+
+![](img/booking.png)
+
+Last but not least is the footer:
+
+![](img/footer.png)
+
+:stuck_out_tongue_closed_eyes:
