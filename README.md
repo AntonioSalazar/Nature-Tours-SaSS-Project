@@ -49,4 +49,6 @@ Last but not least is the footer:
 
 ![](img/footer.png)
 
+Made with :heart: by Antonio Salazar
+
 :stuck_out_tongue_closed_eyes:
